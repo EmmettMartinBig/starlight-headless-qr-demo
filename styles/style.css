@@ -88,16 +88,38 @@ body{
 .card-margin{
 
 }
+
+@media only screen and (max-width: 321px) {
+    .card-item {
+        /* margin: 0 auto!important; */
+        width: 120px !important;
+        height: 120px !important;
+        border-radius: 15px!important;
+        background-color: black!important;
+        margin: 5px;
+        top: 30px;
+    }
+}
+@media only screen and (min-width: 322px) {
+    .card-item {
+        /* margin: 0 auto!important; */
+        width: 150px !important;
+        height: 150px !important;
+        border-radius: 15px!important;
+        background-color: black!important;
+        margin: 5px;
+        top: 30px;
+    }
+}
+/* 
 .card-item{
-    /* margin: 0 auto!important; */
     width: 150px !important;
     height: 150px !important;
     border-radius: 15px!important;
     background-color: black!important;
     margin: 5px;
     top: 30px;
-    
-}
+} */
 
 .card-body-item{
     color: white!important;
